@@ -4,10 +4,10 @@
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/vancouver-public-library/this-is-our-vancouver</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
-		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
-		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
+		<dc:rights>This work, its cover and contents, are copyright of Vancouver Public Library, in Vancouver, British Columbia, Canada.</dc:rights>
+		<dc:publisher id="publisher">Vancouver Public Library</dc:publisher>
+		<meta property="file-as" refines="#publisher">Vancouver Public Library</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://www.vpl.ca</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
@@ -29,46 +29,150 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">This Is Our Vancouver</dc:title>
 		<meta property="file-as" refines="#title">This Is Our Vancouver</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Oral history -- British Columbia</dc:subject>
+		<dc:subject id="subject-2">Immigrants -- British Columbia -- Anecdotes</dc:subject>
+		<dc:subject id="subject-3">Immigrants -- British Columbia -- Interviews</dc:subject>
+		<dc:subject id="subject-4">Indigenous peoples -- British Columbia -- Vancouver -- Interviews</dc:subject>
+		<dc:subject id="subject-5">Indigenous peoples -- British Columbia -- Vancouver -- Anecdotes</dc:subject>
+		<dc:subject id="subject-6">Lesbians -- British Columbia -- Vancouver -- Interviews</dc:subject>
+		<dc:subject id="subject-7">Lesbians -- British Columbia -- Vancouver -- Anecdotes</dc:subject>
+		<dc:subject id="subject-8">Japanese Canadians -- British Columbia -- Vancouver -- Interviews</dc:subject>
+		<dc:subject id="subject-9">Japanese Canadians -- British Columbia -- Vancouver -- Anecdotes</dc:subject>
+		<dc:subject id="subject-10">Greek Canadians -- British Columbia -- Vancouver -- Interviews</dc:subject>
+		<dc:subject id="subject-11">Greek Canadians -- British Columbia -- Vancouver -- Anecdotes</dc:subject>
+		<dc:subject id="subject-12">Chinese Canadians -- British Columbia -- Vancouver -- Interviews</dc:subject>
+		<dc:subject id="subject-13">Chinese Canadians -- British Columbia -- Vancouver -- Anecdotes</dc:subject>
+		<dc:subject id="subject-14">Italian Canadians -- British Columbia -- Vancouver -- Interviews</dc:subject>
+		<dc:subject id="subject-15">Italian Canadians -- British Columbia -- Vancouver -- Anecdotes</dc:subject>
+		<dc:subject id="subject-16">Vancouver (B.C.) -- History -- Anecdotes</dc:subject>
+		<dc:subject id="subject-17">East Vancouver (B.C.) -- History -- Anecdotes</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">Unknown</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">Unknown</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">Unknown</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">Unknown</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">Unknown</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
+		<meta property="term" refines="#subject-9">Unknown</meta>
+		<meta property="authority" refines="#subject-10">LCSH</meta>
+		<meta property="term" refines="#subject-10">Unknown</meta>
+		<meta property="authority" refines="#subject-11">LCSH</meta>
+		<meta property="term" refines="#subject-11">Unknown</meta>
+		<meta property="authority" refines="#subject-12">LCSH</meta>
+		<meta property="term" refines="#subject-12">Unknown</meta>
+		<meta property="authority" refines="#subject-13">LCSH</meta>
+		<meta property="term" refines="#subject-13">Unknown</meta>
+		<meta property="authority" refines="#subject-14">LCSH</meta>
+		<meta property="term" refines="#subject-14">Unknown</meta>
+		<meta property="authority" refines="#subject-15">LCSH</meta>
+		<meta property="term" refines="#subject-15">Unknown</meta>
+		<meta property="authority" refines="#subject-16">LCSH</meta>
+		<meta property="term" refines="#subject-16">Unknown</meta>
+		<meta property="authority" refines="#subject-17">LCSH</meta>
+		<meta property="term" refines="#subject-17">Unknown</meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<dc:description id="description">Vancouver Public Library presents a variety of short interviews with a diverse range of Vancouver residents, capturing a history of the city with particular attention to its multicultural background.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			<![CDATA[<p>Over the course of half a decade, Vancouver Public Library has gathered audio and video recordings from over three hundred individuals who were gracious enough to share thoughts and personal stories about the city. This book pulls together excerpts from interviews that we feel best illustrate community—how communities can band together, support newcomers, create space and shape identity.</p>]]>
+		</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1308</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1346</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1131</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1469</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1082</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1167</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:903</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:890</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:955</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1462</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:983</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:110</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:973</dc:source>
+		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1224</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/vancouver-public-library_this-is-our-vancouver</meta>
-		<dc:creator id="author">Vancouver Public Library</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Vancouver_Public_Library</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:creator id="author-1">Vancouver Public Library</dc:creator>
+		<meta property="file-as" refines="#author-1">Vancouver Public Library</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Vancouver_Public_Library</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author-1" scheme="marc:relators">ivr</meta>
+		<dc:creator id="author-2">Inez Cook</dc:creator>
+		<meta property="file-as" refines="#author-2">Cook, Inez</meta>
+		<meta property="role" refines="#author-2" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-3">Judy Hanazawa</dc:creator>
+		<meta property="file-as" refines="#author-3">Hanazawa, Judy</meta>
+		<meta property="role" refines="#author-3" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-4">Effie Karapidakis</dc:creator>
+		<meta property="file-as" refines="#author-4">Karapidakis, Effie</meta>
+		<meta property="role" refines="#author-4" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-5">Sophia Karasouli-Milobar</dc:creator>
+		<meta property="file-as" refines="#author-5">Karasouli-Milobar, Sophia</meta>
+		<meta property="role" refines="#author-5" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-6">Julia Lane</dc:creator>
+		<meta property="file-as" refines="#author-6">Lane, Julia</meta>
+		<meta property="role" refines="#author-6" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-7">Marion Man</dc:creator>
+		<meta property="file-as" refines="#author-7">Man, Marion</meta>
+		<meta property="role" refines="#author-7" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-8">Angelo Pappas</dc:creator>
+		<meta property="file-as" refines="#author-8">Pappas, Angelo</meta>
+		<meta property="role" refines="#author-8" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-9">Nikki Roussanidis</dc:creator>
+		<meta property="file-as" refines="#author-9">Roussanidis, Nikki</meta>
+		<meta property="role" refines="#author-9" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-10">Greg Rudloff</dc:creator>
+		<meta property="file-as" refines="#author-10">Rudloff, Greg</meta>
+		<meta property="role" refines="#author-10" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-11">Andrea Smith</dc:creator>
+		<meta property="file-as" refines="#author-11">Smith, Andrea</meta>
+		<meta property="role" refines="#author-11" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-12">Anna Terrana</dc:creator>
+		<meta property="file-as" refines="#author-12">Terrana, Anna</meta>
+		<meta property="role" refines="#author-12" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-13">Grace Eiko Thomson</dc:creator>
+		<meta property="file-as" refines="#author-13">Thomson, Grace Eiko</meta>
+		<meta property="role" refines="#author-13" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-14">Jeremy Walker</dc:creator>
+		<meta property="file-as" refines="#author-14">Walker, Jeremy</meta>
+		<meta property="role" refines="#author-14" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-15">Larry Wong</dc:creator>
+		<meta property="file-as" refines="#author-15">Wong, Larry</meta>
+		<meta property="role" refines="#author-15" scheme="marc:relators">ive</meta>
+		<dc:creator id="author-16">Anna Zhao</dc:creator>
+		<meta property="file-as" refines="#author-16">Zhao, Anna</meta>
+		<meta property="role" refines="#author-16" scheme="marc:relators">ive</meta>
+		<dc:contributor id="artist">Jon Whipple</dc:contributor>
+		<meta property="file-as" refines="#artist">Whipple, Jon</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Jonathan Kift</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Kift, Jonathan</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
-		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Renee Chalut</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Chalut, Renee</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<dc:contributor id="producer-3">Jon Whipple</dc:contributor>
+		<meta property="file-as" refines="#producer-3">Whipple, Jon</meta>
+		<meta property="role" refines="#producer-3" scheme="marc:relators">cov</meta>
+		<dc:contributor id="producer-4">Zoey Peterson</dc:contributor>
+		<meta property="file-as" refines="#producer-4">Peterson, Zoey</meta>
+		<meta property="role" refines="#producer-4" scheme="marc:relators">blw</meta>
+		<meta property="role" refines="#producer-4" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -77,14 +181,46 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/andrea-smith.xhtml" id="andrea-smith.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/angelo-pappas.xhtml" id="angelo-pappas.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/anna-terrana.xhtml" id="anna-terrana.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/anna-zhao-and-son.xhtml" id="anna-zhao-and-son.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/effie-karapidakis.xhtml" id="effie-karapidakis.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/grace-eiko-thomson.xhtml" id="grace-eiko-thomson.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/greg-rudloff.xhtml" id="greg-rudloff.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/inez-cook.xhtml" id="inez-cook.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/jeremy-walker.xhtml" id="jeremy-walker.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/judy-hanazawa.xhtml" id="judy-hanazawa.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/julia-lane.xhtml" id="julia-lane.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/larry-wong.xhtml" id="larry-wong.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/marion-man.xhtml" id="marion-man.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/nikki-roussanidis.xhtml" id="nikki-roussanidis.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/sophia-karasouli-milobar.xhtml" id="sophia-karasouli-milobar.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="inez-cook.xhtml"/>
+		<itemref idref="jeremy-walker.xhtml"/>
+		<itemref idref="andrea-smith.xhtml"/>
+		<itemref idref="julia-lane.xhtml"/>
+		<itemref idref="grace-eiko-thomson.xhtml"/>
+		<itemref idref="judy-hanazawa.xhtml"/>
+		<itemref idref="sophia-karasouli-milobar.xhtml"/>
+		<itemref idref="angelo-pappas.xhtml"/>
+		<itemref idref="nikki-roussanidis.xhtml"/>
+		<itemref idref="effie-karapidakis.xhtml"/>
+		<itemref idref="greg-rudloff.xhtml"/>
+		<itemref idref="larry-wong.xhtml"/>
+		<itemref idref="marion-man.xhtml"/>
+		<itemref idref="anna-terrana.xhtml"/>
+		<itemref idref="anna-zhao-and-son.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
