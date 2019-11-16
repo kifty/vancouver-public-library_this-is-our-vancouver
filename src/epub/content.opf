@@ -83,7 +83,7 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">Vancouver Public Library presents a variety of short interviews with a diverse range of Vancouver residents, capturing a history of the city with particular attention to its multicultural background.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			<![CDATA[<p>Over the course of half a decade, Vancouver Public Library has gathered audio and video recordings from over three hundred individuals who were gracious enough to share thoughts and personal stories about the city. This book pulls together excerpts from interviews that we feel best illustrate community—how communities can band together, support newcomers, create space and shape identity.</p>]]>
+			&lt;p&gt;Over the course of half a decade, Vancouver Public Library has gathered audio and video recordings from over three hundred individuals who were gracious enough to share thoughts and personal stories about the city. This book pulls together excerpts from interviews that we feel best illustrate community—how communities can band together, support newcomers, create space and shape identity.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://thisvancouver.vpl.ca/islandora/object/islandora:1308</dc:source>
@@ -109,49 +109,49 @@
 		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">ivr</meta>
-		<dc:creator id="author-2">Inez Cook</dc:creator>
-		<meta property="file-as" refines="#author-2">Cook, Inez</meta>
-		<meta property="role" refines="#author-2" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-3">Judy Hanazawa</dc:creator>
+		<dc:contributor id="interviewee-1">Inez Cook</dc:contributor>
+		<meta property="file-as" refines="#interviewee-1">Cook, Inez</meta>
+		<meta property="role" refines="#interviewee-1" scheme="marc:relators">ive</meta>
+		<dc:contributor id="author-3">Judy Hanazawa</dc:contributor>
 		<meta property="file-as" refines="#author-3">Hanazawa, Judy</meta>
 		<meta property="role" refines="#author-3" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-4">Effie Karapidakis</dc:creator>
+		<dc:contributor id="author-4">Effie Karapidakis</dc:contributor>
 		<meta property="file-as" refines="#author-4">Karapidakis, Effie</meta>
 		<meta property="role" refines="#author-4" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-5">Sophia Karasouli-Milobar</dc:creator>
+		<dc:contributor id="author-5">Sophia Karasouli-Milobar</dc:contributor>
 		<meta property="file-as" refines="#author-5">Karasouli-Milobar, Sophia</meta>
 		<meta property="role" refines="#author-5" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-6">Julia Lane</dc:creator>
+		<dc:contributor id="author-6">Julia Lane</dc:contributor>
 		<meta property="file-as" refines="#author-6">Lane, Julia</meta>
 		<meta property="role" refines="#author-6" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-7">Marion Man</dc:creator>
+		<dc:contributor id="author-7">Marion Man</dc:contributor>
 		<meta property="file-as" refines="#author-7">Man, Marion</meta>
 		<meta property="role" refines="#author-7" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-8">Angelo Pappas</dc:creator>
+		<dc:contributor id="author-8">Angelo Pappas</dc:contributor>
 		<meta property="file-as" refines="#author-8">Pappas, Angelo</meta>
 		<meta property="role" refines="#author-8" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-9">Nikki Roussanidis</dc:creator>
+		<dc:contributor id="author-9">Nikki Roussanidis</dc:contributor>
 		<meta property="file-as" refines="#author-9">Roussanidis, Nikki</meta>
 		<meta property="role" refines="#author-9" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-10">Greg Rudloff</dc:creator>
+		<dc:contributor id="author-10">Greg Rudloff</dc:contributor>
 		<meta property="file-as" refines="#author-10">Rudloff, Greg</meta>
 		<meta property="role" refines="#author-10" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-11">Andrea Smith</dc:creator>
+		<dc:contributor id="author-11">Andrea Smith</dc:contributor>
 		<meta property="file-as" refines="#author-11">Smith, Andrea</meta>
 		<meta property="role" refines="#author-11" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-12">Anna Terrana</dc:creator>
+		<dc:contributor id="author-12">Anna Terrana</dc:contributor>
 		<meta property="file-as" refines="#author-12">Terrana, Anna</meta>
 		<meta property="role" refines="#author-12" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-13">Grace Eiko Thomson</dc:creator>
+		<dc:contributor id="author-13">Grace Eiko Thomson</dc:contributor>
 		<meta property="file-as" refines="#author-13">Thomson, Grace Eiko</meta>
 		<meta property="role" refines="#author-13" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-14">Jeremy Walker</dc:creator>
+		<dc:contributor id="author-14">Jeremy Walker</dc:contributor>
 		<meta property="file-as" refines="#author-14">Walker, Jeremy</meta>
 		<meta property="role" refines="#author-14" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-15">Larry Wong</dc:creator>
+		<dc:contributor id="author-15">Larry Wong</dc:contributor>
 		<meta property="file-as" refines="#author-15">Wong, Larry</meta>
 		<meta property="role" refines="#author-15" scheme="marc:relators">ive</meta>
-		<dc:creator id="author-16">Anna Zhao</dc:creator>
+		<dc:contributor id="author-16">Anna Zhao</dc:contributor>
 		<meta property="file-as" refines="#author-16">Zhao, Anna</meta>
 		<meta property="role" refines="#author-16" scheme="marc:relators">ive</meta>
 		<dc:contributor id="artist">Jon Whipple</dc:contributor>
@@ -171,6 +171,7 @@
 		<meta property="role" refines="#producer-3" scheme="marc:relators">cov</meta>
 		<dc:contributor id="producer-4">Zoey Peterson</dc:contributor>
 		<meta property="file-as" refines="#producer-4">Peterson, Zoey</meta>
+		<meta property="role" refines="#producer-4" scheme="marc:relators">aui</meta>
 		<meta property="role" refines="#producer-4" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-4" scheme="marc:relators">pfr</meta>
 	</metadata>
@@ -189,6 +190,7 @@
 		<item href="text/effie-karapidakis.xhtml" id="effie-karapidakis.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/grace-eiko-thomson.xhtml" id="grace-eiko-thomson.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/greg-rudloff.xhtml" id="greg-rudloff.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/inez-cook.xhtml" id="inez-cook.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
@@ -206,6 +208,7 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="introduction.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="inez-cook.xhtml"/>
 		<itemref idref="jeremy-walker.xhtml"/>
 		<itemref idref="andrea-smith.xhtml"/>
