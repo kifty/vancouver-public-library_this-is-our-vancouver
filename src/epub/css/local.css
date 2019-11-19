@@ -5,3 +5,28 @@ span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
 }
+
+abbr.acronym{
+	font-variant: all-small-caps;
+}
+
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: center;
+	text-indent: 0;
+}
+
+[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
+
+blockquote.note{
+	font-style: italic;
+}
+
+p.interviewer{
+	margin: 1.5em auto;
+	font-style: italic;
+}
