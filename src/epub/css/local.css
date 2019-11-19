@@ -28,5 +28,10 @@ blockquote.note{
 
 p.interviewer{
 	margin: 1.5em auto;
+	text-indent: 0;
 	font-style: italic;
+}
+
+p.interviewer + p{
+	text-indent: 0;
 }
