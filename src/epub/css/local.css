@@ -18,10 +18,6 @@ abbr.acronym{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
 blockquote.note{
 	font-style: italic;
 }
