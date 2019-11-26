@@ -188,7 +188,6 @@
 		<item href="text/anna-zhao-and-son.xhtml" id="anna-zhao-and-son.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/effie-karapidakis.xhtml" id="effie-karapidakis.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/grace-eiko-thomson.xhtml" id="grace-eiko-thomson.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/greg-rudloff.xhtml" id="greg-rudloff.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
@@ -225,7 +224,6 @@
 		<itemref idref="marion-man.xhtml"/>
 		<itemref idref="anna-terrana.xhtml"/>
 		<itemref idref="anna-zhao-and-son.xhtml"/>
-		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
