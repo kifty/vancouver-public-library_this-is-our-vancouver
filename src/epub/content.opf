@@ -182,6 +182,7 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/acknowledgements.xhtml" id="acknowledgements.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/andrea-smith.xhtml" id="andrea-smith.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/angelo-pappas.xhtml" id="angelo-pappas.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/anna-terrana.xhtml" id="anna-terrana.xhtml" media-type="application/xhtml+xml"/>
@@ -224,6 +225,7 @@
 		<itemref idref="marion-man.xhtml"/>
 		<itemref idref="anna-terrana.xhtml"/>
 		<itemref idref="anna-zhao-and-son.xhtml"/>
+		<itemref idref="acknowledgements.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
